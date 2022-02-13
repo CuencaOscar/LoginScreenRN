@@ -196,7 +196,7 @@ const SignInScreen = ({ navigation }: Props) => {
                 <View style={styles.button}>
                     <TouchableOpacity
                         style={styles.signIn}
-                        onPress={() => navigation.navigate("Home3")}
+                        onPress={() => navigation.navigate("Home4")}
                     // onPress={() => {loginHandle( data.username, data.password )}}
                     >
                         <LinearGradient
@@ -210,7 +210,7 @@ const SignInScreen = ({ navigation }: Props) => {
                     </TouchableOpacity>
 
                     <TouchableOpacity
-                        onPress={() => navigation.navigate('SignUpScreen')}
+                        onPress={() => navigation.navigate('Home3')}
                         style={[styles.signIn, {
                             borderColor: '#009387',
                             borderWidth: 1,
